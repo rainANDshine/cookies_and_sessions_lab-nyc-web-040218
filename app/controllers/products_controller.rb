@@ -5,6 +5,6 @@ class ProductsController < ApplicationController
 
   def add
     byebug
-    cart << params
+    cart << params[:name]
   end
 end
