@@ -7,6 +7,6 @@ class ProductsController < ApplicationController
     cart << params[:name]
     #@item = cart
     #render :index
-    redirect_to products_path
+    #redirect_to products_path
   end
 end
