@@ -6,4 +6,6 @@
 
 <br /><br />
 
-<%= @item %>
+<% @item.each do |item| %>
+  <%= item %>
+<% end %>
