@@ -1,9 +1,10 @@
 class ProductsController < ApplicationController
   def index
-    cart
+    @item = cart
   end
 
   def add
+    byebug
     cart << params
   end
 end
